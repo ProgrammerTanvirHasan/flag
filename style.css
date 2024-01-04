@@ -1,0 +1,45 @@
+.flag{
+    height: 250px;
+    width: 450px;
+    background-color: green;
+    position: relative;
+    margin-left: 40%;
+    margin-top: 70px;
+    border: solid 2px black;
+}
+.circle{
+    height: 120px;
+    width: 120px;
+    background-color: red;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 40%;
+    border-radius: 100%;
+}
+.stand{
+    height: 600px;
+    width: 25px;
+    background: black;
+    border-top-right-radius: 50px;
+    position: relative;
+}
+.ground{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+   transform: translate(-35%,-50%);
+   border-top-left-radius: 40%;
+   border-top-right-radius: 40%;
+    
+}
+.second{
+    height: 50px;
+    width: 180px;
+    background-color: black;
+    position: absolute;
+    transform: translate(-40%,35%);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
